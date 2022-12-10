@@ -1,0 +1,22 @@
+- git init for initializing
+- git status: for seeing the changes made
+- git add . (for adding all changes to the “staging area”)
+- git commit -m “text” (committing all changes in the staging area to the repository. m stands for message)
+- type nul>filename.txt (for creating a new text file with the name filename)
+- cat “filename”(shows the contents of the file)
+- git restore —staged “filename” (to un-stage the staged stuff)
+- rm -rf “filename” (for deleting)
+- git reset “hash id” (for uncommitting till a certain hash id)
+- git stash (for taking things to the backstage ie. not to lose but not to commit either)
+- git stash pop (for getting them back to the staging area)
+- git stash clear (gone)
+- git remote add origin “url” (for connecting a remote repository for example on github, should be the .git url)
+- git remote -v (List the current remotes associated with the local repository.)
+- touch “filename.extension” (for creating a new file)
+- git clone “url”
+- git checkout “branchname” (to move the head (like LOGO) there basically to indicate that we are working in that branch and all the changes that we are going to commit should go to that branch)
+- git push origin “branch” (for pushing changes. add -f for force pushing changes. it is done for removing a commit from the pull request.)
+- **Never commit to the main branch directly**
+
+- PR stands for pull request
+- git fetch  —all —prune (for fetching all changes and prune is added to fetch the deleted changes as well)
